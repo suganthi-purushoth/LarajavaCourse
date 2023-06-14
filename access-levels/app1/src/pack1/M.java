@@ -1,0 +1,30 @@
+package pack1;
+class L
+{
+	private void test1()
+	{
+		System.out.println("from test1");
+	}
+	void test2()
+	{
+		System.out.println("from test2");
+	}
+}
+class M extends L
+{
+	public static void main(String[] args) 
+	{
+		M m1=new M();
+		m1.test1();
+		m1.test2();
+		System.out.println("Done");
+	}
+}
+/*
+D:\java-program-lab\access-levels\app1\src>javac -d ../classes pack1/M.java
+pack1\M.java:18: error: cannot find symbol
+                m1.test1();
+                  ^
+  symbol:   method test1()
+  location: variable m1 of type M
+1 error*/
