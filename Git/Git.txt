@@ -1,0 +1,11 @@
+G
+it or GitHub -version control system
+-we can able to add,remove,modify the content of the existing project.
+-Git keep tracks the changes to the files.
+-Git is a distributed version control system.
+-Git or GitHub used for collaborative development of source code in the software development.
+-we can achive speeder development.
+-There is no chance of losing the source code.since all the developers are having a copy.
+-Git is open source,means anybody can able to view and contribute to the existing project.except private repositories.
+-companies using Git - Google,Microsoft,NetFlix,twitter
+-in one sentence "Git is an open source distributed version control system designed to keep track of even the minor changes to the project with high speed with efficiency"

@@ -1,0 +1,16 @@
+13.6.23
+
+ACCESS -LEVELS:
+------------------
+
+//access specifiers == access modifiers
+//we can control over the data,which one should be shared and which one should not be over package structure
+//the access specifiers in java maintains the accessibility or scope of a field, method,constructor,or class.
+//private || default || protected || public
+//default ==  package level access specifier ==  friendly access specifier
+//private members can be access within the class only
+//the scope of private member is within the declared class level.
+//private members cannot be accessed outside of the class.
+
+
+//method also we can use access specifier

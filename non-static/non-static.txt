@@ -1,0 +1,29 @@
+NON- STATIC
+------------
+non static members cannot be reference from a static context without a referance variable
+//An object is a real world entity,
+//class is a blue print to creae the objects
+//objects will be having properties or datamembers or attributes and behaviours 
+
+//Ex:Dog object properties or attributes:name,age,color,bread,gender,weiht
+                     //Behaviours:bark(),chaseCat(),bite(),chaseVehicle()
+//properties=data members
+//behaviours=member functions
+//for one class you can to create any no of object.
+//G g1=G(class name),g1(reference variable name)(name can be anything)
+//=assignment operator(left side assignment)
+//new is a keyword and also an operator
+//G()-calling G class no argument constructor.
+//variable,method follow the class link variableNumberOne,methodNumberOne
+//variable name should be valid identifier
+//while you are refering to the class case must be same(as a standard we will write the class namein camel case like ThisIsTheCamelCase
+//Objects are stored inside heap memory
+//non-static members are loading to the memory while objects are created.
+//all the non-static members are loading to the memory while we are creating objects to that particular class.it can be non-static method or it can be a non static block.
+
+//10=int i; not possible
+//non static method test is loading to the memory whenever we are creating an object to the H class.
+//by using H class reference h1 we can access test method is non static
+
+non static mem cannot be reference with out ref var
+//ststic block also comes under static constant or static area

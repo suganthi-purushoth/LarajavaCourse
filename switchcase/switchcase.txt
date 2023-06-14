@@ -1,0 +1,16 @@
+SWITCH CASE
+-----------
+its a keyword.
+matching case continue from all cases
+no break
+switch case have any num of stmt
+from last case break is optional
+
+default keys:
+----------------
+its also keyword
+only one default key no matching for cases then the control will execute default key
+
+default key also having break;
+default key can kept any where.. middle or after 1 case or end
+switch condition  developwith in a method

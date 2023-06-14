@@ -1,0 +1,23 @@
+13.6.23
+---------
+create an account on github.com-->create a repository 
+
+-git-scm/download-->download for windows
+-right click in the project folder and select git-bash here 
+-cntr+scrollup for increasing the font size
+
+first setup  -->configuring your git-software with git-hub account
+------------
+git --global user.name "suganthi-purushoth"
+clear
+git config --global user.name "suganthi-purushoth"
+git config --global user.email psuganthi710@gmail.com
+clear
+
+14.6.23
+-------
+
+-git init==>to initialize this folder as a git repository, so that the remote git system can able to interact with your local git repository
+
+-git add .==>to adding all the files to the folder to the satging area.
+-git commit -m "message_goes_here" ==>commiting the changes to the files which are currectly in the staging area.

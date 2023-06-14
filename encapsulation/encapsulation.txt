@@ -1,0 +1,43 @@
+one of the pillers of Object oriented programming language.
+encapsulation
+inheritance
+polymorpism
+abstract class
+
+ENCAPSULATION:
+-------------
+1.Encapsulation in java is a process of wrapping code and data together into a single unit(one unit),for example,
+				a capsule which is mixed of several medicines.
+-we can able to achive data security through encapsulation
+-we can achive data hiding
+-by using getters and setters we can make the data ready-only or write-only
+-by using getters and setters we can have control over the data.
+2.we can create a fully encapsulated class in java by making all the data members of the class private.
+3.By providing only a setter or getter method,you can make the class read-only or write-only.In other words,
+		you can skip the getter or setter methods.
+4.It provides you the control over the data.suppose you want to set the value of id which should be greater than 100 only ,
+		you can write the logic inside the setter method.
+you can write the logic not to store the negative members in the setter methods.
+5.It is a way to achive data hiding in java because other class will not be able to access the data through the private data members.
+
+
+
+//write only=you can change the data
+//read only=you cannot change the data
+//static variable or non static variable=data members(data)
+//static methods or non static methods=member functions(code)
+//we can to use getter and setter () use indirectly
+
+Encapsulation is one of the fundamental principles of object-oriented programming(OOP) 
+        and involves hiding internal data and implementation details of a class and providing access to them through methods. 
+		It helps in achieving data abstraction and protects the data from unauthorized access.
+
+encapsulation dia:
+-----------------
+class 
+{
+data members
+     +
+methods(behavior)
+}
+https://www.scientecheasy.com/2020/07/encapsulation-in-java.html/(see this diagram)

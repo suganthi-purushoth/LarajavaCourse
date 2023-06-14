@@ -1,0 +1,44 @@
+6.6.23
+-----------
+Inheritance:
+-------------
+//one cls can able to extend another cls at a time.
+//at a time a class can able to extend only one class.
+//Java supports single inherritance,meaning a class can inherits from only one superclass.
+//not only var,methods also using inheritance
+//we can create class reference to  another class,but only parent cls methods only loading
+ex:
+ class c
+{
+}
+class D extends C
+{
+C c1=new C();
+
+//static varible are also inheriting to the  sub class from the superclass.
+//by using sub class reference only we can access static members of subclass.no need of creating object.
+//even by creating object to subclass also we access static variables.
+//static methos also will be inheriting to the sub class
+inheritance(constructor)
+---------------------
+//each and every class will be extending object class either directly or indirectly
+//if class is not extending any other class then that class is direct subclass of object class
+//if the class is already extending another class then that class is the indirect sub class of object class.
+//whether we keep it or not compiler only keeps the extends for all the classes.
+
+
+i.Inheritance is process of aquiring the properties(data members) and behaviours(data var or member function) from another class.
+ii.By using inheritance we can achieve code reuseability.
+iii.Inheritance is a fundamental concept in object oriented programming that allows classes to inherit properties and behaviors from other classes.
+
+
+The code you provided demonstrates Java inheritance. Class 'B' extends class 'A', which means that 'B' inherits the members of 'A',including the 'i' variable. In the 'main' method of class 'B',an object of type 'B' is created and assigned to the variable
+
+
+7.6.23
+---------
+single inheritance with IIB block
+---------------------------------
+//after IIB,constructor will execute
+//for one object creation IIB block executes tor to bottom only once before the constructors
+

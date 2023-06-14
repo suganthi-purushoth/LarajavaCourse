@@ -1,0 +1,10 @@
+obj-count:
+----------
+//static members can be used stright away in the static and non-static
+//static var loading only once
+
+i) all the static members of a class will be shared by each and every object of that class,by using any reference of any object we can access any static member
+
+ii)by using reference of any object we can able to access or modify the static member.
+iii)only the original static member will be getting modified,because static members gets loaded only once not again and again.
+iv)every obj creation IIB block will be executing

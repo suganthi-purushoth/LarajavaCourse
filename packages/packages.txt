@@ -1,0 +1,31 @@
+11.6.23
+--------
+PACKAGES IN JAVA:
+------------------
+why do we need pakages in java?
+1.A package in java used to group related classes.
+2.By using packages we can avoid naming conflicts
+3.By using package we can achive access protection.
+
+
+D:\java-program-lab\packages\app1\src>javac -d ../classes com/lara/employees/EmployeeData.java
+
+
+12.6.23
+-------
+package name always starting with lowercase
+$ and _ 
+
+compile
+-------
+D:\java-program-lab\pack\src>javac -d ../classes com/lara/students/StudentsData.java
+
+Run
+----
+D:\java-program-lab\pack\src>java -cp ../classes com.lara.students.StudentsData
+
+
+* first package then import *
+import
+-------
+import in the class from the another package

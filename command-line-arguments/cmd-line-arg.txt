@@ -1,0 +1,23 @@
+3.6.23
+--------
+
+//main() called by the jvm
+//directly cannot passed by the value
+//System=lang package
+//string[] args ={};  show the memory location where the obj is available
+
+//JVM will be calling the main method by supplying empty string array object 
+          //if you dont supply anything as a command line argument while executing any class.
+//if you directly print the array reference you will be getting the memory address of that array object.
+//each and every array will be having a length.we can find out the array length by using 'length'properly(by calling length property on the array reference).
+//arrays are also objects in java.
+//array index will be starting from 0 but length we will calculate from no.1.
+//if there are no elements are present in the array then we can say that array is empty or (size or length is 0).
+//by default whatever value you are supplying as command line argument that will be considered as string type only.
+//there is no method for converting from string to char 
+//we cant able to convert from string to char
+//but we can convert from char to string
+
+
+how to convert from string to char
+---------------------------------

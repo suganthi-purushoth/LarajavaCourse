@@ -1,0 +1,244 @@
+-----------------------------Note:-----------------------------------
+- Write your name and batch details and page number in all the pages. 
+- dont make scratches(use worksheet for before entering the answer).
+- total duration is 60 minutes.
+- only two peson per bench
+- attend all the questions. write anwers in the serial manner, if you    dont know the answer keep the blank and move on to the next.
+- fold it outside in before handing it over.
+---------------------------------------------------------------------
+Q1. Difference between static and non-static members? M-4
+Ans: 
+						static
+						-------
+	1. static members gets loaded whenever the class is getting loading to the memory.
+	2. static variables will be getting the default values while initializing.
+	3. We dont need to create an object in order to access static members inside the static as well as non-static context.
+	4. By using class reference we can access static members within the class as well as outside the class.
+	5. static members gets loaded and executed only once whenever the class is loading.
+
+						non-static
+						----------
+	1. non-static members gets loaded whenever the object is created.
+	2. non-static variables will be getting the default values while 
+	   loading.
+	3. compulsary we need to create an object in order to access         non-static variables inside static context.
+	4. By using object reference we can able to accesss non-static	     members of the class.
+	5. static members gets loaded and executed each and every time	     when a new object is created. 
+-------------------------------------------------------------
+Q2. What is output for the following code? M-1
+	class A
+	{
+		int i;
+		public static void main(String[]args)
+		{
+			System.out.println(A.i);
+		}
+	}
+	Ans: CTE, non-static member cant references from a static context.
+-------------------------------------------------------------------
+Q3. What is output for the following code? M-1
+	class A
+	{
+		static A a1 = new A();
+		static
+		{
+			a1 = new A();
+		}
+		public static void main(String[] args)
+		{
+			System.out.println(a1 = a1);
+		}
+		static 
+		{
+			a1 = null;
+		}
+	}
+Ans: null
+----------------------------------------------------------------
+Q4. What is output for the following code? M-1
+	class O
+	{
+		public static void main(String[]args)	
+		{
+			O o1 = new O();
+			O o2 = null, o3 = o1, o4 = null;
+			System.out.println(o2 = o4 = o1);
+		}
+	}
+Ans: null
+--------------------------------------------------
+Q5. What are all the points related constructors? M-5
+Ans: 
+//Constructor is a special type of method, but its not a regular method, internaly compiler will be considering it a method. 
+//The main difference between a method and constructor is that method must have return type, but constructor must not have a return type.
+//constrotors are maily used for intializing objects
+//if there are no constructors are defined by the programmer then, compilar only keeps a default construtor,In every class, which is no argument constructor(its doesnt takes any argument).
+//Rules for constructor
+//1. constructor name must be same as class name(case-sensitive).
+//2. constructors must not have a return type.
+//2. constructors must be having a body{}
+
+//some general points
+//1.constructor can have access specifiers(modifiers)
+//2.constructor can take any no. of arguments.
+//3.constructors are executed while we are creating the object to that particular class.
+//4.while creating the object we need to call the a corresponding, availble constructor only. 
+--------------------------------------------------------
+Q6. What is output for the following code? M-1
+    class B
+	{
+		B
+		{
+			System.out.println("B()");
+		}
+	}
+Ans: CTE
+---------------------------------------------------
+Q7. What is output for the following code? M-1
+    class I
+	{
+		public static void main(String[]args)
+		{
+			I i1 = new I(90);
+			System.out.println("done");
+		}
+	}
+Ans: CTE
+-----------------------------------------------------
+Q8. What is output for the following code? M-1
+    class I
+	{
+		I(int i)
+		{
+		}
+		public static void main(String[]args)
+		{
+			I i1 = new I();
+			System.out.println("done");
+		}
+	}
+Ans: CTE
+-------------------------------------------------------
+Q9. What is output for the following code? M-1
+	class B
+	{
+		{
+			{
+				System.out.println("IIB");
+			}
+		}
+		public static void main(String[] args)
+		{
+			B b1 = new B();
+		}
+	}
+Ans: IIB
+-------------------------------------------------
+Q10. What is output for the following code? M-1
+     class B
+	 {
+		 {
+			System.out.println("IIB");
+		 }
+		 public static void main(String[] args)
+		 {
+			{
+				B b1 = new B();
+			}
+		 }
+	  }
+Ans: IIB
+-------------------------------------------------
+Q11. What is output for the following code? M-1
+     class B
+	{
+		public static void main(String[] args)
+		{
+			IIB
+			{
+			}
+		}
+	}
+Ans: CTE
+----------------------------------------------------
+Q12. Write a program to demonstrate IIB block usage? M-2
+Ans:
+	class Student
+	{
+		int roll_number;
+		String name;
+		String college_name;
+		String course;
+
+		Student(int roll_number, String name)
+		{
+			this.roll_number = roll_number;
+			this.name = name;
+		}
+
+		{
+			this.college_name = "Lara"; 
+		}
+
+		{
+			this.course = "Java Full-stack"; 
+		}
+
+		public static void main(String[] args)
+		{
+			Student s1 = new Student(101,"Ashish");
+			Student s2 = new Student(102,"Chatu");
+			Student s3 = new Student(103,"Naveen");
+			Student s4 = new Student(104,"Aditya");
+			System.out.println(s1.roll_number + ", " + s1.name + ", " + s1.college_name + ", " + s1.course);
+			System.out.println(s2.roll_number + ", " + s2.name + ", " + s2.college_name + ", " + s2.course);
+			System.out.println(s3.roll_number + ", " + s3.name + ", " + s3.college_name + ", " + s3.course);
+			System.out.println(s4.roll_number + ", " + s4.name + ", " + s4.college_name + ", " + s4.course);
+		}
+	}
+----------------------------------------------------------
+Q13. What are all the points you remember about the IIB block? M-4
+Ans: 
+     1. IIB blocks belong to non-static
+	 2. we can have any number of IIB-Block within the class and outside of any method.
+	 3. IIB gets executed while creating the object and before the execution of constructor.
+	 4. IIB blocks gets executed from top to bottom only once for one object creation.
+----------------------------------------------------------------
+Q14. What is output for the following code? M-1
+	class B
+	{
+		B()
+		{
+			this()
+		}
+	}
+Ans: CTE, Recursive Invocation not possible
+------------------------------------------------------------------
+Q15. What is output for the following code? M-1
+     class B
+	 {
+		 static B()
+		 {
+		 }
+	  }
+Ans: CTE, constructor cant be static
+---------------------------------------------------
+Q16. What are all the points you remember about objects count concept? M-3
+Ans: 
+    1. All the static members will be shared by all objects of a class.
+	2. At the time of compilation compiler only replaces object reference with class reference if you are trying to access static memeber with an object reference.
+	3. by using any object reference of that particular class you can able to change the value of that particular class static variable.
+---------------------------------------------------------
+Q17. True or False: Command line arguments are always passed as			 strings.  M-1
+	 Ans: True. Command line arguments are passed as strings and need to be converted
+-------------------------------------------------------------
+Q18. How can you determine the number of command line arguments			 passed to a Java program? M-1
+	 Ans: By calling length property on the main method String[] argument reference variable.
+-------------------------------------------------------------
+Q19. Command line arguments are separated by ___________   M-1
+Ans: space
+------------------------------------------------------------
+Q20. How can you pass a command line argument containing spaces as a      single argument? M-1
+Ans: Enclose the argument in double quotation marks.
+
+----------------------------END---------------------------------

@@ -1,0 +1,73 @@
+static-is a keyword
+the basic meaning os ststic something doesn't change very frequently
+when static call default values calling in main()
+int =0
+double=0.0
+boolean=false 
+executing top to bottom in only once
+satic var also called as field or attribute or property
+byte=0
+short=0
+long=0
+1st=loading next=initializing then executing
+float=0.0
+String=null //these are all object types
+
+
+21.5.2023
+------------
+
+static method
+-------------
+static void test()
+{
+}
+
+static block
+------------
+static
+{
+}
+
+in one java file we can develope any number of classes
+in java file max 0,1 only one public class is available
+the class name must be a public
+//each and every cls static files can be loaded
+------------------------------------------------------------------
+class A 
+{
+
+}
+class B
+{
+
+}
+
+class P1
+{
+
+}
+//in this pgm class file create 3 class files 
+//A.class 
+//B.class 
+//P6.class
+//its compile successfully
+//in this type of pgm compile the save file name 1st
+
+
+
+Documentation
+-------------
+chapter &classes
+docs.oracle.com/javase/specs/jils/se14/html/jils-8.html*jils-8.3.3
+operator produces in java
+
+
+
+
+BOOK
+-----
+docs.oracle.com/javacase/spects/index.html
+java specification oracle download
+java SE 8 //its standard version
+released march 

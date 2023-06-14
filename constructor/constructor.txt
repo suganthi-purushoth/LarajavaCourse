@@ -1,0 +1,52 @@
+29.5.23
+--------
+//what is a constructor?
+constructor is a special type of method,but its not a regular method,internaly compiler will be consider it a method.
+//the main difference between a method and constructor is that method must have return type,but construtor must not have a return type.
+//constructor are mainly used for initializing objects
+//if there are no constructors are defined by the programmer then,compilar only keeps a default constructor,in every class, which is no argument constructor.(its doesnot takes any argument).
+
+//Rules for constructor:
+//-----------------------
+//1.Constructor name must be same as class name(case-sensitive).
+//2.constructors must not have return type.
+//3.constructors must be having a body{ }.
+
+Some general points related to constructor:
+-----------------------------------------
+1.constructors can have access specifiers or access modifiers.
+2.constructors can take any number of arguments,any type of statement.
+3.constructors are executed while we are creating the object to that particular class.
+4.while creating the object we need to call the a corresponding, available constructor only.
+
+
+for each and every object creation the available constructor of that class will be executing.
+
+//non static members can be used straight away int he non static context without a reference variable.
+
+/for one object creation that particular constructor executes only one(constructor changing is different)
+//according to the constructor argument datatype,we must supply the value while calling that constructor.
+
+//according to the calling,while creating the object.constructor will be executing.
+//one constructor can be called any no.of time.but we need to create the object for calling the constructor.
+
+//super()=(super with no arg)
+//in every constructor body the first statement would be super() calling statement.(if the programmer didnot keep super or this calling statement explicitely)
+//each and every class is a subclass to object class(wheather directly or indirectly)
+//object class is the supermost class in java
+//some of the commonely required members are inherited to the sub- classes from the object class.
+//super calling statement is calling the object calss no argument constructor
+//in the object class we have one constructor which is no argument constructor,and we dont have any statements inside that constructor
+//super statement will be always calling the super class constructor.
+//super and this statements comes under non-static.
+//this calling statement always calls the current class constructor not the super class constructor.
+//if we only kept super(),or any super withargument then compiler will not be keeping super()
+
+
+
+30.5.23
+---------
+constructor comes before or after main method
+this();//always 1st statement in constructor body
+//static block executes only once while creating loading the class
+//constructor executes every time while creating the object.

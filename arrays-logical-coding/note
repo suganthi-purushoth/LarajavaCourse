@@ -1,0 +1,191 @@
+1.find out total number of elements in an array?
+
+2.read first 3 elements from a given array?(assume total 10 elements are available in an array)
+
+3.read last 3 elements from a given array?
+(assume total 10 elements are available in an array)
+
+4.read middle two elements from a given array?
+(assume total 10 elements are available in an array)
+
+5.read all the elements from a given array?
+(assume total 10 elements are available in an array)
+
+6.read all the elements expect first and last from a given array?
+(assume total 10 elements are available in an array)
+
+7.read first halfof the elements from a given array?
+(assume total 10 elements are available in an array)
+
+
+8.read second half of the elements from a given array?
+(assume total 10 elements are available in an array)
+
+9.read all the elements from a given array in the reverse order?
+(assume total 10 elements are available in an array)
+
+10.read all the elements inthe reverse order but expect first and last from a given array?
+(assume total 10 elements are available in an array)
+
+11.read first halfof the elements from a given array in the reverse order?
+(assume total 10 elements are available in an array)
+
+
+12.read last half of the elements from a given array in the reverse order?
+(assume total 10 elements are available in an array)
+
+13.read alternative  elements from a given array ?
+(assume total 10 elements are available in an array)
+
+14.read alternative  elements from a given array in the reverse order?
+(assume total 10 elements are available in an array)
+
+15.repeat all above programs by considering total number of elements are 11.
+
+16.find of sum of  elements in the given int array?
+
+17.find out avg of all the elements in the given int array?
+
+18.find out sum of the first half of the  elements in the given int array?
+
+19.find out avg of first half of the elements in the given int array?
+
+20.find out sum of the 2nd half of the  elements in the given int array?
+
+21.find out avg of 2nd half of the elements in the given int array?
+
+22.find out min value from a given int array?
+
+23.find out max value from a given int array?
+
+24.find out min value in the first half from a given int array?
+
+25.find out max value in the first half from a given int array?
+
+26.find out min value in the 2nd  half from a given int array?
+
+
+27.find out max value in the 2nd half from a given int array?
+
+28.find out min value from all even elements from a given int array?
+
+29.find out max value from all even elements from a given int array?
+
+30.find out min value from all odd elements from a given int array?
+
+31.find out max value from all odd elements from a given int array?
+
+32.find out 2nd max from a given int array?
+
+33.find out 2nd min from a given int array?
+
+34.find out 3rd max from a given int array?
+
+35.find out 3rd min from a given int array?
+
+36.find out the continues elements which are in the ascending/descending order?
+
+37.print the elements which are next to even elements
+
+38.print the elements which are prev to even elements
+
+39.print the elements which are in the middle of two even elements
+
+40.print the odd elements which are in the middle of two even elements
+
+41.print the even elements which are in the middle of two odd elements
+
+42.print all two consecutive even elements
+
+43.print all two consecutive odd elements
+
+44.print 3 elements which are first 2's sum is 3rd one
+
+45.find out all the two elements whos sum is zero
+
+46.find out all the three elements whos sum is zero
+
+47.find out the nearest number for every number
+
+48.increment every value to 5 units
+
+49.decrement every value to 10 units
+
+50.increment first half values with 5 units and decrement 2nd half value to 10 units?
+
+51. multiply every even values with 20 and add 20 units to every odd values?
+
+52.swap first elements with last element.
+     example:initial{10,5,13,16,4,7,20,18}
+             final{{18,5,13,16,4,7,20,10}
+
+53.swap every element with its next element.
+        (assume total number of elements are even)
+     example:initial{10,5,13,16,4,7,20,18}
+             final{5,10,16,13,7,4,18,20}
+
+
+54.reverse array element.
+     example:initial{10,5,13,16,4,7,20,18}
+             final{18,20,7,4,16,13,5,10}
+
+
+55.replace array elements with the index numbers.
+example:initial {10,5,13,16,4,7,20,18}
+         final{0,1,2,3,4,5,6,7}
+
+
+56.replace array elements with the twice index numbers.
+example:initial {10,5,13,16,4,7,20,18}
+         final{0,2,4,6,8,10,12,14}
+
+57.left shift by one.
+example:initial {10,5,13,16,4,7,20,18}
+         final (5,13,16,4,7,20,18,18}
+
+
+
+58.left shift by two.
+example:initial {10,5,13,16,4,7,20,18}
+         final {13,16,4,7,20,18,20,18}
+
+
+59.left rotate by one.
+example:initial {10,5,13,16,4,7,20,18}
+         final {5,13,16,4,7,20,18,10}
+
+
+
+60.left rotates by two.
+example:initial {10,5,13,16,4,7,20,18}
+         final {13,16,4,7,20,18,10,5}
+
+
+61.right shift by one.
+example:initial {10,5,13,16,4,7,20,18}
+         final {10,10,5,13,16,4,7,20}
+
+
+
+62.right shift by two.
+example:initial {10,5,13,16,4,7,20,18}
+         final {10,5,10,5,13,16,4,7}
+
+
+63.left rotate by one.
+example:initial {10,5,13,16,4,7,20,18}
+         final {18,10,5,13,16,4,7,20}
+
+
+
+64.left rotate by two.
+example:initial {10,5,13,16,4,7,20,18}
+         final {20,18,10,5,13,16,4,7}
+
+
+
+
+
+
+
+
